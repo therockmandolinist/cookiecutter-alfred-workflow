@@ -28,11 +28,6 @@ import sys
 import docopt
 from workflow import Workflow
 
-log = None
-
-# Initial values for `settings.json`
-DEFAULT_SETTINGS = {}
-
 # Auto-update from GitHub releases
 UPDATE_SETTINGS = {
     'github_slug': '{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}',

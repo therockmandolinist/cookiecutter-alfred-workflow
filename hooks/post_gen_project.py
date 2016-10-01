@@ -39,8 +39,8 @@ for comment, cmd in [
         ['git', 'init', '.']
     ),
     (
-        "Linking src/LICENCE.txt to root ...",
-        ['ln', '-s', 'src/LICENCE.txt', '.']
+        "Linking src/MIT-LICENSE.txt to root ...",
+        ['ln', '-s', 'src/MIT-LICENSE.txt', '.']
     ),
     (
         "Dangling symlink from src/icon.png to root ...",

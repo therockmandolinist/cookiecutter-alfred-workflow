@@ -19,9 +19,9 @@
 
 ## Licencing, thanks ##
 
-This workflow is released under the [MIT licence][mit].
+This workflow is released under the [MIT license][mit].
 
-It is based on the [Alfred-Workflow][aw] library, which is also released under the [MIT licence][mit].
+It uses the [Alfred-Workflow][aw] library, which is also released under the [MIT license][mit].
 
 
 ## Changelog ##
@@ -31,5 +31,5 @@ It is based on the [Alfred-Workflow][aw] library, which is also released under t
 - First release
 
 
-[mit]: ./src/LICENCE.txt
+[mit]: ./src/MIT-LICENSE.txt
 [aw]: http://www.deanishe.net/alfred-workflow/
