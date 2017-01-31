@@ -1,15 +1,15 @@
 {
-  "full_name": "Diego Mundo",
-  "email": "diegoamundo@gmail.com",
-  "bundle_id_root": "com.therockmandolinist"
-  "github_username": "therockmandolinist"
-  "workflow_name": "Alfred Thingumy",
-  "repo_name": "{{ cookiecutter.workflow_name.lower().replace(' ', '-') }}",
-  "bundle_id": "{{cookiecutter.bundle_id_root}}.{{ cookiecutter.repo_name }}",
-  "script_name": "{{ cookiecutter.repo_name.replace('-', '_') }}",
-  "short_description": "An Alfred 3 workflow",
-  "date": "{% now 'local', '%Y-%m-%d' %}",
-  "year": "{% now 'local', '%Y' %}",
-  "version": "0.1.0",
-  "_extensions": ["jinja2_time.TimeExtension"]
+    "full_name": "Diego Mundo",
+    "email": "diegoamundo@gmail.com",
+    "bundle_id_root": "com.therockmandolinist",
+    "github_username": "therockmandolinist",
+    "workflow_name": "Alfred Thingumy",
+    "repo_name": "{{ cookiecutter.workflow_name.lower().replace(' ', '-') }}",
+    "bundle_id": "{{cookiecutter.bundle_id_root}}.{{ cookiecutter.repo_name }}",
+    "script_name": "{{ cookiecutter.repo_name.replace('-', '_') }}",
+    "short_description": "An Alfred 3 workflow",
+    "date": "{% now 'local', '%Y-%m-%d' %}",
+    "year": "{% now 'local', '%Y' %}",
+    "version": "0.1.0",
+    "_extensions": ["jinja2_time.TimeExtension"]
 }
